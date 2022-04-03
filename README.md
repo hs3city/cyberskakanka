@@ -18,11 +18,11 @@
 
 ### The Base
 
-![](img/baza.jpg)
+![](img/baza.png)
 
 ### The Base with Two Tiles Fit
 
-![](img/baza2.jpg)
+![](img/baza2.png)
 
 ### The Tile
 
@@ -30,8 +30,8 @@
 - a layer of white cardboard
 - 5mm transparent plexi
 
-![](img/mdf.jpg)
+![](img/mdf.png)
 
-![](img/mdf_4katy.jpg)
+![](img/mdf_4katy.png)
 
-![](img/mdf_rzut.jpg)
+![](img/mdf_rzut.png)
