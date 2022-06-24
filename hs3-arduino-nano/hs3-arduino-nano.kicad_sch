@@ -4092,27 +4092,6 @@
     (pin "1" (uuid 24798f36-a168-4cc5-bfa6-2fc772c7558f))
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x04") (at 254.635 180.975 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid eeb4a81a-6b1d-498e-b4c6-2a8a690418ff)
-    (property "Reference" "J6" (id 0) (at 257.175 180.9749 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "ADC" (id 1) (at 257.175 183.5149 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (id 2) (at 254.635 180.975 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 254.635 180.975 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 067b45d0-8c13-4dac-989a-6e5e23544298))
-    (pin "2" (uuid d05eb749-24a0-4914-a30e-17dc16e071a1))
-    (pin "3" (uuid d5f377c2-9fd7-4895-bb8f-2d0330d1ee89))
-    (pin "4" (uuid 0a6d0524-2732-4f22-a0b2-37259e283e9e))
-  )
-
   (symbol (lib_id "Connector_Generic:Conn_01x05") (at 366.522 88.392 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid f19bb86b-894a-4f70-8fd5-97cb3b5bc882)
@@ -4339,9 +4318,6 @@
     )
     (path "/5e2e2c6c-c611-48c6-b1fc-21eccfc29503"
       (reference "J5") (unit 1) (value "Sensors") (footprint "Connector_Hirose:Hirose_DF13-06P-1.25DSA_1x06_P1.25mm_Vertical")
-    )
-    (path "/eeb4a81a-6b1d-498e-b4c6-2a8a690418ff"
-      (reference "J6") (unit 1) (value "ADC") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
     )
     (path "/f19bb86b-894a-4f70-8fd5-97cb3b5bc882"
       (reference "J7") (unit 1) (value "3V3") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
