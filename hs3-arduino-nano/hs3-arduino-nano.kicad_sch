@@ -3145,7 +3145,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 120e2590-bb08-4c69-94c5-a585d9315759)
     (property "Reference" "J3" (id 0) (at 147.32 167.64 0))
-    (property "Value" "DEBUG" (id 1) (at 147.32 170.18 0))
+    (property "Value" "DBG" (id 1) (at 147.32 170.18 0))
     (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (id 2) (at 147.32 174.625 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3154,6 +3154,27 @@
     )
     (pin "1" (uuid 24e4feff-f218-488c-aa51-e1cbcacbcc42))
     (pin "2" (uuid 292d415d-a39f-46f0-9ab1-fd3cb621cb31))
+  )
+
+  (symbol (lib_id "Connector_Generic:Conn_01x04") (at 254.635 180.975 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 1642c8f9-985d-4c88-9e27-ced235e42c18)
+    (property "Reference" "ADC" (id 0) (at 257.81 180.9749 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Conn_01x04" (id 1) (at 257.81 183.5149 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical" (id 2) (at 254.635 180.975 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 254.635 180.975 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3b40056f-80c8-486a-a311-17d2c9e136f4))
+    (pin "2" (uuid 74d9237f-4ff5-41c4-845c-3dbb7d79e004))
+    (pin "3" (uuid a46dde86-bee5-4256-9473-3a7b836ad901))
+    (pin "4" (uuid 71be5c4d-a195-40d8-b049-66a706c0483d))
   )
 
   (symbol (lib_id "power:GND") (at 81.915 123.698 0) (unit 1)
@@ -3957,10 +3978,10 @@
     (property "Reference" "SW1" (id 0) (at 36.195 114.9349 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "Bootsel" (id 1) (at 36.195 117.4749 90)
+    (property "Value" "Boot" (id 1) (at 36.195 117.4749 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-3000P-B" (id 2) (at 29.845 116.205 0)
+    (property "Footprint" "Button_Switch_SMD:SW_SPST_CK_KXT3" (id 2) (at 29.845 116.205 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 29.845 116.205 0)
@@ -4253,6 +4274,9 @@
     (path "/00000000-0000-0000-0000-000056d74854"
       (reference "#PWR029") (unit 1) (value "+3.3V") (footprint "")
     )
+    (path "/1642c8f9-985d-4c88-9e27-ced235e42c18"
+      (reference "ADC") (unit 1) (value "Conn_01x04") (footprint "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical")
+    )
     (path "/34a2d67f-22e5-4403-82fa-4be59f69f599"
       (reference "C1") (unit 1) (value "27p") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
@@ -4311,7 +4335,7 @@
       (reference "J2") (unit 1) (value "USB_B_Micro") (footprint "RP2040:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal_modified")
     )
     (path "/120e2590-bb08-4c69-94c5-a585d9315759"
-      (reference "J3") (unit 1) (value "DEBUG") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+      (reference "J3") (unit 1) (value "DBG") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/46799dac-1370-4923-87d2-de884eb986b7"
       (reference "J4") (unit 1) (value "I2C") (footprint "Connector_Hirose:Hirose_DF13-04P-1.25DSA_1x04_P1.25mm_Vertical")
@@ -4359,7 +4383,7 @@
       (reference "R5") (unit 1) (value "27") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/bb6ea6cf-8752-455e-95c0-edab5667069b"
-      (reference "SW1") (unit 1) (value "Bootsel") (footprint "Button_Switch_SMD:SW_SPST_B3U-3000P-B")
+      (reference "SW1") (unit 1) (value "Boot") (footprint "Button_Switch_SMD:SW_SPST_CK_KXT3")
     )
     (path "/90c33843-beb1-4147-99ef-0f56428fc34e"
       (reference "U1") (unit 1) (value "NCP1117-3.3_SOT223") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
