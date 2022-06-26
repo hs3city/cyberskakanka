@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.09999999999999999
         }
       },
       "diff_pair_dimensions": [
@@ -395,7 +395,6 @@
         "name": "JLC",
         "nets": [
           "+1V1",
-          "+3V3",
           "/GPIO0",
           "/GPIO1",
           "/GPIO10",
@@ -408,7 +407,6 @@
           "/GPIO17",
           "/GPIO18",
           "/GPIO19",
-          "/GPIO2",
           "/GPIO20",
           "/GPIO21",
           "/GPIO22",
@@ -419,7 +417,6 @@
           "/GPIO27_ADC1",
           "/GPIO28_ADC2",
           "/GPIO29_ADC3",
-          "/GPIO3",
           "/GPIO4",
           "/GPIO5",
           "/GPIO6",
@@ -440,11 +437,13 @@
           "/XIN",
           "/XOUT",
           "/~{USB_BOOT}",
-          "GND",
           "Net-(C2-Pad1)",
-          "Net-(R4-Pad2)",
-          "Net-(R5-Pad2)",
-          "unconnected-(J2-Pad4)",
+          "Net-(J1-PadA5)",
+          "Net-(J1-PadB5)",
+          "Net-(R6-Pad2)",
+          "Net-(R7-Pad2)",
+          "unconnected-(J1-PadA8)",
+          "unconnected-(J1-PadB8)",
           "unconnected-(P3-Pad1)",
           "unconnected-(P4-Pad1)",
           "unconnected-(P5-Pad1)",
@@ -468,13 +467,15 @@
         "microvia_drill": 0.1,
         "name": "JLC Power",
         "nets": [
+          "+3V3",
+          "GND",
           "VBUS"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
+        "track_width": 0.4,
         "via_diameter": 0.4,
-        "via_drill": 0.3,
+        "via_drill": 0.2,
         "wire_width": 6.0
       }
     ],
