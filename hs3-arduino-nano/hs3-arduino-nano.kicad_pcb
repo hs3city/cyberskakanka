@@ -3040,7 +3040,7 @@
   (gr_text "IO6" (at 142.113 82.804) (layer "B.SilkS") (tstamp 47ab428f-b8a7-4771-88e8-73bcb5b1b526)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "JLCJLCJLCJLC" (at 147.32 109.474) (layer "B.SilkS") (tstamp 5062c321-0153-42be-8a6f-3d086c570026)
+  (gr_text "JLCJLCJLCJLC" (at 148.209 107.188) (layer "B.SilkS") (tstamp 5062c321-0153-42be-8a6f-3d086c570026)
     (effects (font (size 1 1) (thickness 0.1)) (justify mirror))
   )
   (gr_text "SWCLK" (at 145.796 73.279 90) (layer "B.SilkS") (tstamp 98ebe4da-c18c-484c-85e8-744bcf24eee0)
