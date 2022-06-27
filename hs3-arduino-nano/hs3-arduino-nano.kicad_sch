@@ -1583,18 +1583,18 @@
   (no_connect (at 249.555 158.115) (uuid 527e37aa-851e-43c8-aa6f-bca38826bf80))
   (no_connect (at 397.51 21.59) (uuid 5b5b3452-6965-4e61-8f8c-cb86bf0c3023))
   (no_connect (at 249.555 135.255) (uuid 6180ae7e-1a0d-4643-8b08-c526f6a8ea01))
-  (no_connect (at 249.555 132.715) (uuid 6180ae7e-1a0d-4643-8b08-c526f6a8ea01))
-  (no_connect (at 249.555 130.175) (uuid 6180ae7e-1a0d-4643-8b08-c526f6a8ea01))
+  (no_connect (at 249.555 132.715) (uuid 6180ae7e-1a0d-4643-8b08-c526f6a8ea02))
+  (no_connect (at 249.555 130.175) (uuid 6180ae7e-1a0d-4643-8b08-c526f6a8ea03))
   (no_connect (at 249.555 142.875) (uuid 6e366f8c-398b-4321-9fe9-732607107aaf))
   (no_connect (at 249.555 145.415) (uuid 85fcfb75-2ced-47d6-90fc-cca4ab477abc))
   (no_connect (at 249.555 186.055) (uuid ab04f250-d2f5-48b1-91e4-f311707a4c8e))
-  (no_connect (at 249.555 178.435) (uuid ab04f250-d2f5-48b1-91e4-f311707a4c8e))
-  (no_connect (at 249.555 180.975) (uuid ab04f250-d2f5-48b1-91e4-f311707a4c8e))
-  (no_connect (at 249.555 183.515) (uuid ab04f250-d2f5-48b1-91e4-f311707a4c8e))
+  (no_connect (at 249.555 178.435) (uuid ab04f250-d2f5-48b1-91e4-f311707a4c8f))
+  (no_connect (at 249.555 180.975) (uuid ab04f250-d2f5-48b1-91e4-f311707a4c90))
+  (no_connect (at 249.555 183.515) (uuid ab04f250-d2f5-48b1-91e4-f311707a4c91))
   (no_connect (at 249.555 127.635) (uuid b6010dfa-c66b-42bf-a19a-e37907b36088))
   (no_connect (at 249.555 165.735) (uuid bc1b21aa-ab23-4dd9-9fe0-6fa7cbc35908))
   (no_connect (at 249.555 109.855) (uuid bfbeba83-2807-47f8-a693-6e54e25990a1))
-  (no_connect (at 249.555 112.395) (uuid bfbeba83-2807-47f8-a693-6e54e25990a1))
+  (no_connect (at 249.555 112.395) (uuid bfbeba83-2807-47f8-a693-6e54e25990a2))
   (no_connect (at 249.555 147.955) (uuid c20b3cad-7b02-4945-9cee-d6facf8436d2))
   (no_connect (at 249.555 140.335) (uuid c5222398-90a9-4460-9879-5fddf9640559))
   (no_connect (at 249.555 122.555) (uuid d1aef33c-cd19-4b20-981d-0f540dd9af40))
@@ -3267,7 +3267,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 337.82 163.195 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 15a603b6-dca3-4476-9025-3b3597941600)
-    (property "Reference" "J9" (id 0) (at 340.995 163.1949 0)
+    (property "Reference" "Sensor3" (id 0) (at 340.995 163.1949 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CONN_01x04" (id 1) (at 340.995 165.7349 0)
@@ -3578,7 +3578,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 337.82 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 4b786aef-baa8-422e-baa2-b43ab61ca5de)
-    (property "Reference" "J8" (id 0) (at 340.995 151.1299 0)
+    (property "Reference" "Sensor2" (id 0) (at 340.995 151.1299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CONN_01x04" (id 1) (at 340.995 153.6699 0)
@@ -4051,7 +4051,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 337.82 127 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a850f206-7bc0-4e67-91b8-4c9ebd7fa7d6)
-    (property "Reference" "J6" (id 0) (at 340.995 126.9999 0)
+    (property "Reference" "Sensor0" (id 0) (at 340.995 126.9999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CONN_01x04" (id 1) (at 340.995 129.5399 0)
@@ -4221,7 +4221,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 337.82 139.065 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid c8efae34-b61b-4d35-894e-88ad84868f4e)
-    (property "Reference" "J7" (id 0) (at 340.995 139.0649 0)
+    (property "Reference" "Sensor1" (id 0) (at 340.995 139.0649 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CONN_01x04" (id 1) (at 340.995 141.6049 0)
@@ -4539,18 +4539,6 @@
     (path "/f55d7948-449e-4b6d-8709-722ab05364ca"
       (reference "J4") (unit 1) (value "LED") (footprint "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical")
     )
-    (path "/a850f206-7bc0-4e67-91b8-4c9ebd7fa7d6"
-      (reference "J6") (unit 1) (value "CONN_01x04") (footprint "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical")
-    )
-    (path "/c8efae34-b61b-4d35-894e-88ad84868f4e"
-      (reference "J7") (unit 1) (value "CONN_01x04") (footprint "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical")
-    )
-    (path "/4b786aef-baa8-422e-baa2-b43ab61ca5de"
-      (reference "J8") (unit 1) (value "CONN_01x04") (footprint "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical")
-    )
-    (path "/15a603b6-dca3-4476-9025-3b3597941600"
-      (reference "J9") (unit 1) (value "CONN_01x04") (footprint "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical")
-    )
     (path "/00000000-0000-0000-0000-000056d73fac"
       (reference "P1") (unit 1) (value "Digital") (footprint "Socket_Arduino_Nano:Socket_Strip_Arduino_1x15")
     )
@@ -4592,6 +4580,18 @@
     )
     (path "/bb6ea6cf-8752-455e-95c0-edab5667069b"
       (reference "SW1") (unit 1) (value "Boot") (footprint "Button_Switch_SMD:SW_SPST_CK_KXT3")
+    )
+    (path "/a850f206-7bc0-4e67-91b8-4c9ebd7fa7d6"
+      (reference "Sensor0") (unit 1) (value "CONN_01x04") (footprint "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical")
+    )
+    (path "/c8efae34-b61b-4d35-894e-88ad84868f4e"
+      (reference "Sensor1") (unit 1) (value "CONN_01x04") (footprint "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical")
+    )
+    (path "/4b786aef-baa8-422e-baa2-b43ab61ca5de"
+      (reference "Sensor2") (unit 1) (value "CONN_01x04") (footprint "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical")
+    )
+    (path "/15a603b6-dca3-4476-9025-3b3597941600"
+      (reference "Sensor3") (unit 1) (value "CONN_01x04") (footprint "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical")
     )
     (path "/dbeb86be-e9d4-4eaa-9ea6-eae69176406d"
       (reference "U1") (unit 1) (value "W25Q128JVS") (footprint "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm")
