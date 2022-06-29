@@ -490,7 +490,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "hs3-arduino-nano.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
