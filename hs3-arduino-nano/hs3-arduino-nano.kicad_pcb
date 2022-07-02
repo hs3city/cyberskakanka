@@ -49,7 +49,7 @@
     (pad_to_mask_clearance 0)
     (aux_axis_origin 138.176 110.617)
     (pcbplotparams
-      (layerselection 0x0000030_ffffffff)
+      (layerselection 0x0000030_80000001)
       (disableapertmacros false)
       (usegerberextensions false)
       (usegerberattributes true)
@@ -77,7 +77,7 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 0)
+      (drillshape 1)
       (scaleselection 1)
       (outputdirectory "")
     )
@@ -660,8 +660,8 @@
       (net 5 "+3V3") (pinfunction "Pin_3") (pintype "passive") (tstamp f05ccff0-b349-4194-bd42-40916f4aba42))
     (pad "4" smd roundrect (at 1.5 1.325 180) (size 0.6 1.55) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (pinfunction "Pin_4") (pintype "passive") (tstamp 1c865f3f-a12a-4640-acbb-e9d7d83643ce))
-    (pad "MP" smd roundrect (at 2.8 -1.2 180) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333) (tstamp 0ea80f3b-1a96-44b0-84b8-7abf5ce9a1bf))
-    (pad "MP" smd roundrect (at -2.8 -1.2 180) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333) (tstamp d603d64a-9619-4031-846d-a5d5844ae872))
+    (pad "MP" smd roundrect (at 2.8 -1.2 180) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333) (tstamp 0ea80f3b-1a96-44b0-84b8-7abf5ce9a1bf))
+    (pad "MP" smd roundrect (at -2.8 -1.2 180) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333) (tstamp d603d64a-9619-4031-846d-a5d5844ae872))
     (model "${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -825,8 +825,8 @@
       (net 5 "+3V3") (pinfunction "Pin_3") (pintype "passive") (tstamp fb7db250-9550-496a-a968-7440bae7623a))
     (pad "4" smd roundrect (at 1.5 1.325) (size 0.6 1.55) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (pinfunction "Pin_4") (pintype "passive") (tstamp 38f7c26b-a40b-4cb9-bcef-3e3d0383c10f))
-    (pad "MP" smd roundrect (at 2.8 -1.2) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333) (tstamp 1ddbf83d-7ccf-46f6-bb41-6e771de8a50c))
-    (pad "MP" smd roundrect (at -2.8 -1.2) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333) (tstamp 289567b6-e9a7-4306-8941-da46af95ca36))
+    (pad "MP" smd roundrect (at 2.8 -1.2) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333) (tstamp 1ddbf83d-7ccf-46f6-bb41-6e771de8a50c))
+    (pad "MP" smd roundrect (at -2.8 -1.2) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333) (tstamp 289567b6-e9a7-4306-8941-da46af95ca36))
     (model "${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -966,11 +966,6 @@
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
-    )
-    (model "${KIPRJMOD}/hs3-arduino-nano.3dshapes/DX07S016JA1R1500--3DModel-STEP-1.STEP"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 0))
     )
   )
 
@@ -2235,8 +2230,8 @@
       (net 5 "+3V3") (pinfunction "Pin_3") (pintype "passive") (tstamp 7fb474f1-7fb0-4035-80e4-6ade69ffb69c))
     (pad "4" smd roundrect (at 1.5 1.325 180) (size 0.6 1.55) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (pinfunction "Pin_4") (pintype "passive") (tstamp dfd71f87-109e-4539-b677-46af28aeab8e))
-    (pad "MP" smd roundrect (at -2.8 -1.2 180) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333) (tstamp 65d9b509-92ff-4fa8-a103-3c5c6692e51e))
-    (pad "MP" smd roundrect (at 2.8 -1.2 180) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333) (tstamp f66d3996-2178-4edc-a571-f5d1df9a3b1d))
+    (pad "MP" smd roundrect (at -2.8 -1.2 180) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333) (tstamp 65d9b509-92ff-4fa8-a103-3c5c6692e51e))
+    (pad "MP" smd roundrect (at 2.8 -1.2 180) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333) (tstamp f66d3996-2178-4edc-a571-f5d1df9a3b1d))
     (model "${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -2489,8 +2484,8 @@
       (net 5 "+3V3") (pinfunction "Pin_3") (pintype "passive") (tstamp 56620258-a677-46e7-8f2f-a04850487e83))
     (pad "4" smd roundrect (at 1.5 1.325) (size 0.6 1.55) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (pinfunction "Pin_4") (pintype "passive") (tstamp 5cd6eb71-b76e-45b6-b763-d0b65b6d0559))
-    (pad "MP" smd roundrect (at 2.8 -1.2) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333) (tstamp 8181e77c-32e8-4a26-be63-ebfd8f7a4d8e))
-    (pad "MP" smd roundrect (at -2.8 -1.2) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333) (tstamp bd25c996-cba6-4bb9-a54c-2f21dc730f69))
+    (pad "MP" smd roundrect (at 2.8 -1.2) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333) (tstamp 8181e77c-32e8-4a26-be63-ebfd8f7a4d8e))
+    (pad "MP" smd roundrect (at -2.8 -1.2) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333) (tstamp bd25c996-cba6-4bb9-a54c-2f21dc730f69))
     (model "${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
