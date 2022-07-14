@@ -4254,7 +4254,7 @@
     (property "Value" "XRCGB27M120F3M00R0" (id 1) (at 37.465 180.34 90)
       (effects (font (size 1.524 1.524)) (justify right))
     )
-    (property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" (id 2) (at 59.944 187.96 0)
+    (property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm" (id 2) (at 59.944 187.96 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 50.8 193.04 0)
@@ -4777,7 +4777,7 @@
       (reference "U3") (unit 1) (value "RP2040") (footprint "RP2040:RP2040-QFN-56")
     )
     (path "/b041487f-0668-4406-889e-c637618ffac1"
-      (reference "XTAL1") (unit 1) (value "XRCGB27M120F3M00R0") (footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm")
+      (reference "XTAL1") (unit 1) (value "XRCGB27M120F3M00R0") (footprint "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm")
     )
   )
 )
